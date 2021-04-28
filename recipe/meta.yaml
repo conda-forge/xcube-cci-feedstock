@@ -30,7 +30,7 @@ requirements:
     - python-dateutil
     - six
     - xarray
-    - xcube >=0.6.2
+    - xcube >=0.8
 
 test:
   imports:
