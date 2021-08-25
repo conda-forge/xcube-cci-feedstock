@@ -1,5 +1,5 @@
 {% set name = "xcube-cci" %}
-{% set version = "0.8.0" %}
+{% set version = "0.8.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/dcs4cop/xcube-cci/archive/v{{ version }}.tar.gz
-  sha256: 3e244b9ce39112bf6048e6cc084107bd32acfff4be190dfb03b823a5285eb357
+  sha256: 0db915bca5655b4a7ea376e5032f5b27159f98f5f9af3fb5fa9ead553072c7db
 
 build:
   number: 0
@@ -30,7 +30,7 @@ requirements:
     - python-dateutil
     - six
     - xarray
-    - xcube >=0.8
+    - xcube >=0.8.1
 
 test:
   imports:
