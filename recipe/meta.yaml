@@ -19,7 +19,7 @@ requirements:
     - python >=3.8
     - pip
   run:
-    - python >=3.6
+    - python >=3.8
     - aiohttp >=3.6
     - lxml >=4.5
     - nest-asyncio >=1.3
