@@ -1,5 +1,5 @@
 {% set name = "xcube-cci" %}
-{% set version = "0.9.5" %}
+{% set version = "0.9.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/dcs4cop/xcube-cci/archive/v{{ version }}.tar.gz
-  sha256: 9ba3c59a5278c98786a616e020584c032173237a1f649871bc0b34c29ec6782d
+  sha256: 9d9dc6a56aad2eaf22dbc5ec2bb719c2391da02ce17f76b49482142462932b6c
 
 build:
   number: 0
