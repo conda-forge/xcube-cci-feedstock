@@ -1,5 +1,5 @@
 {% set name = "xcube-cci" %}
-{% set version = "0.9.6" %}
+{% set version = "0.9.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/dcs4cop/xcube-cci/archive/v{{ version }}.tar.gz
-  sha256: 9d9dc6a56aad2eaf22dbc5ec2bb719c2391da02ce17f76b49482142462932b6c
+  sha256: 6c38974016986153506c061c6066a704455613d44d5c94160eb916aaa1dbd62c
 
 build:
   number: 0
@@ -24,7 +24,7 @@ requirements:
     - lxml >=4.5
     - nest-asyncio >=1.3
     - pydap >=3.3
-    - xcube >=0.9
+    - xcube >=0.12.1
 
 test:
   imports:
