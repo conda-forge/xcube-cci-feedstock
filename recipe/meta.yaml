@@ -36,7 +36,7 @@ test:
 
 about:
   summary: xcube plugin for the ESA CCI Open Data Portal
-  home: https://github.com/dcs4cop/xcube-cci
+  home: https://github.com/esa-cci/xcube-cci
   license: MIT
   license_family: MIT
   license_file: LICENSE
