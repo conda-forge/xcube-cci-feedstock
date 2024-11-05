@@ -1,5 +1,5 @@
 {% set name = "xcube-cci" %}
-{% set version = "0.11" %}
+{% set version = "0.11.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/esa-cci/xcube-cci/archive/v{{ version }}.tar.gz
-  sha256: 5f68845afd50fa64a3f026409580fbd5bb351a12b3bea4f41e808138086b43eb
+  sha256: 31ae1b8f8fc29619537cb114954e3914f029a98b385550b568d7f6eacd2d3783
 
 build:
   number: 0
@@ -36,7 +36,7 @@ test:
 
 about:
   summary: xcube plugin for the ESA CCI Open Data Portal
-  home: https://github.com/dcs4cop/xcube-cci
+  home: https://github.com/esa-cci/xcube-cci
   license: MIT
   license_family: MIT
   license_file: LICENSE
