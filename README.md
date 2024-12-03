@@ -3,7 +3,7 @@ About xcube-cci-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/xcube-cci-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/dcs4cop/xcube-cci
+Home: https://github.com/esa-cci/xcube-cci
 
 Package license: MIT
 
