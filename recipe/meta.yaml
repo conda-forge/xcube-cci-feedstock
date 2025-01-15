@@ -30,6 +30,7 @@ requirements:
     - rioxarray
     - xcube >=1.4.0
     - xvec
+    - zarr <3
 
 test:
   requires:
