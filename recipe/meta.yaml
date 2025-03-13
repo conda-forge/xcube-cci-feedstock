@@ -28,7 +28,7 @@ requirements:
     - numpy >=2.0
     - pydap >=3.4
     - rioxarray
-    - xcube >=1.4.0
+    - xcube >=1.8.0
     - xvec
     - zarr <3
 
@@ -56,6 +56,5 @@ extra:
     - forman
     - AliceBalfanz
     - thomasstorm
-    - ruchimotwaniBC
     - konstntokas
     - b-yogesh
