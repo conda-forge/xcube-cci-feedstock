@@ -1,6 +1,6 @@
 {% set python_min = "3.10" %}
 {% set name = "xcube-cci" %}
-{% set version = "0.11.4" %}
+{% set version = "0.11.5" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/esa-cci/xcube-cci/archive/v{{ version }}.tar.gz
-  sha256: a37d96d1a01808955f4eb9a513a5f503ef91e723b3a2d48892b9e43015f3eef2
+  sha256: 30c3021df1eaf60f09770a012ce8c9427781f476f9ad642f424d067aa5ebbba2
 
 build:
   number: 0
@@ -28,7 +28,7 @@ requirements:
     - numpy >=2.0
     - pydap >=3.4
     - rioxarray
-    - xcube >=1.4.0
+    - xcube >=1.8.0
     - xvec
     - zarr <3
 
@@ -56,6 +56,5 @@ extra:
     - forman
     - AliceBalfanz
     - thomasstorm
-    - ruchimotwaniBC
     - konstntokas
     - b-yogesh
