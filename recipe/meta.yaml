@@ -1,6 +1,6 @@
 {% set python_min = "3.10" %}
 {% set name = "xcube-cci" %}
-{% set version = "0.11.8" %}
+{% set version = "0.11.9" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/esa-cci/xcube-cci/archive/v{{ version }}.tar.gz
-  sha256: af1bea103ea65d6f48d43e38252fd479a0b059e14ccfd8688074d5ded42162fa
+  sha256: 6ed2d8f1a9ef4a3b8686a43fde9547514bc01db964232f6d7e18f0c6f7dccf07
 
 build:
   number: 0
