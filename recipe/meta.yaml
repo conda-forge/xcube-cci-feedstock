@@ -1,6 +1,6 @@
 {% set python_min = "3.10" %}
 {% set name = "xcube-cci" %}
-{% set version = "0.12.1" %}
+{% set version = "0.13" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/esa-cci/xcube-cci/archive/v{{ version }}.tar.gz
-  sha256: dc58cc808beed9b6b70d017c0f7a3ea7929cccd83b1d7430bea1d884fc090294
+  sha256: c31777d97b4f37330dbc0f9149ecd11425714e7444f32729362e1af480accc69
 
 build:
   number: 0
@@ -25,7 +25,6 @@ requirements:
     - python >={{ python_min }}
     - aiohttp >=3.6
     - lxml >=4.5
-    - nest-asyncio >=1.3
     - numpy >=2.0
     - pydap >=3.4,<=3.5.3
     - rioxarray
