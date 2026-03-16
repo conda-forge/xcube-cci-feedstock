@@ -1,0 +1,13 @@
+diff --git a/pyproject.toml b/pyproject.toml
+index 453e298..826184d 100644
+--- a/pyproject.toml
++++ b/pyproject.toml
+@@ -33,7 +33,7 @@ dependencies = [
+     "numpy>=2",
+     "pydap>=3.4,<=3.5.3",
+     "rioxarray",
+-    "xcube-core>=1.8.0",
++    "xcube>=1.8.0",
+     "xvec",
+     "zarr<3"
+ ]
