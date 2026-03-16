@@ -7,9 +7,7 @@ Home: https://github.com/esa-cci/xcube-cci
 
 Package license: MIT
 
-Summary: xcube plugin for the ESA CCI Open Data Portal
-
-Development: https://github.com/esa-cci/xcube-cci
+Summary: An xcube plugin that allows generating data cubes from the ESA CCI Open Data Portal.
 
 Documentation: https://github.com/esa-cci/xcube-cci/blob/master/README.md
 
