@@ -28,6 +28,7 @@ requirements:
     - numpy >=2.0
     - pydap >=3.4,<=3.5.3
     - rioxarray
+    - xarray >= 2025.4.0
     - xcube >=1.8.0
     - xvec
     - zarr <3
